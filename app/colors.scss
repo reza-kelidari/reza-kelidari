@@ -1,0 +1,15 @@
+:root {
+  --background: #efeeed;
+  --section-background: #fff;
+  --text-primary: #000;
+  --text-secondary: #00000080;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --background: #121212;
+    --section-background: #484848;
+    --text-primary: #fff;
+    --text-secondary: #ffffff80;
+  }
+}
