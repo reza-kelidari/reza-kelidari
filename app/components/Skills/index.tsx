@@ -1,20 +1,21 @@
 import Card from "@/components/Card";
 import styles from "./styles.module.scss";
 import Image from "next/image";
-import { SkillType } from "@/app/api/skills/types";
+import { skillsList } from "@/static/Skills";
 
-export default async function Skills() {
-  const skillsData = await fetch(
-    process.env.NEXT_PUBLIC_BASE_URL + "/api/skills"
-  );
-  const skills: SkillType[] = await skillsData.json();
-
+export default function Skills() {
   return (
     <section className={styles.skills}>
       <Card title="مهارت‌های">
         <div className={styles.list}>
-          {skills.map((skill: SkillType) => (
-            <Image src={skill.icon} alt={skill.name} height={50} width={50} />
+          {Object.values(skillsList).map((item, index) => (
+            <Image
+              key={index}
+              src={item.iconName}
+              alt={item.name}
+              height={50}
+              width={50}
+            />
           ))}
         </div>
       </Card>
