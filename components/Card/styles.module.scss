@@ -19,8 +19,14 @@
     padding: 2rem;
     flex-direction: column;
 
-    .title {
-      font-size: 2rem;
+    .titleBar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      .title {
+        font-size: 2rem;
+      }
     }
   }
 }

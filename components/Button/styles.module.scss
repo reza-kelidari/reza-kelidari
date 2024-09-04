@@ -8,9 +8,22 @@
   padding: 1rem 1.5rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition: 0.3s ease-in-out all;
+
+  &:hover {
+    box-shadow: 0 0 1rem #00000055;
+  }
 
   .text {
     color: #fff;
     white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    &:hover {
+      box-shadow: unset;
+    }
   }
 }
