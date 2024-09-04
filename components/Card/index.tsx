@@ -10,7 +10,10 @@ export default function Card({
 }) {
   return (
     <div className={styles.card}>
-      <h1 className={styles.title}>{title}</h1>
+      <div className={styles.titleBar}>
+        <h1 className={styles.title}>{title}</h1>
+        <h1 className={styles.title}>من</h1>
+      </div>
       {children}
     </div>
   );

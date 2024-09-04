@@ -1,10 +1,16 @@
 import styles from "./styles.module.scss";
 import Card from "@/components/Card";
 
-export default function About() {
+/**
+ * Renders About section for Home page, contains
+ * some details about me
+ *
+ * @returns {JSX.Element}
+ */
+export default function About(): JSX.Element {
   return (
     <section className={styles.about} id="about-me">
-      <Card title="درباره‌ی من">
+      <Card title="درباره‌ی">
         <div className={styles.descList}>
           <p className={styles.desc}>
             من 21 سالمه و تهران، شهریار زندگی می‌کنم (نگران نباش، با دوری راه

@@ -3,7 +3,13 @@ import styles from "./styles.module.scss";
 import Link from "next/link";
 import Button from "@/components/Button";
 
-export default function Hero() {
+/**
+ * Renders first section of Home page, contains
+ * a profile iamge and welcome text
+ *
+ * @returns {JSX.Element}
+ */
+export default function Hero(): JSX.Element {
   return (
     <section className={styles.hero}>
       <Image
@@ -18,7 +24,9 @@ export default function Hero() {
       <div className={styles.container}>
         <h3 className={styles.welcome}>سلام 👋</h3>
         <h1 className={styles.title}>من رضا کلیدری هستم</h1>
-        <h2 className={styles.subTitle}>توسعه دهنده‌ی تازه‌کار Front-End 👨‍💻</h2>
+        <h2 className={styles.subTitle}>
+          یه توسعه دهنده‌ی تازه‌کار Front-End 👨‍💻
+        </h2>
 
         <br />
 
