@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
 import "./globals.scss";
+import Head from "next/head";
 
 const vazirmatn = Vazirmatn({ subsets: ["latin"] });
 
@@ -21,6 +22,9 @@ export const metadata: Metadata = {
     "سایت فروشگاهی",
     "سایت فروش",
   ],
+  other: {
+    "google-site-verification": "Z0S9zls7euBvZaDeMnR8X8JxUYKWHjEKiIULDXhTcz8",
+  },
 };
 
 export default function RootLayout({
