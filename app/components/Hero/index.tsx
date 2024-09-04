@@ -30,7 +30,7 @@ export default function Hero(): JSX.Element {
 
         <br />
 
-        <Link href="#templates">
+        <Link href="#templates" className={styles.link}>
           <Button icon="icons/arrow-up-left.svg">نمونه‌کار ها</Button>
         </Link>
       </div>
