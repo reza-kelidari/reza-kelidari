@@ -6,6 +6,16 @@
   padding: 3rem;
   border-radius: 3rem;
 
+  &.vertical {
+    flex-direction: column;
+
+    .titleBar {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+
   .titleBar {
     .title {
       font-size: 3rem;

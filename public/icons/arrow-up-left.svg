@@ -1,9 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="26.483" height="26.483" viewBox="0 0 26.483 26.483">
-  <g id="Arrow_Up" data-name="Arrow Up" transform="translate(-1749.246 418.689) rotate(-45)">
-    <path id="Path" d="M2.49,0a2.49,2.49,0,0,1,2.49,2.49V22.414a2.49,2.49,0,0,1-4.981,0V2.49A2.49,2.49,0,0,1,2.49,0Z"
-      transform="translate(1530.471 950.903)" opacity="0.5" fill="#fff" />
-    <path id="Arrow"
-      d="M1540.433,963.026a2.482,2.482,0,0,1-1.733-.7l-5.736-5.558-5.741,5.559a2.49,2.49,0,1,1-3.465-3.578l7.475-7.237a2.49,2.49,0,0,1,3.465,0l7.468,7.237a2.49,2.49,0,0,1-1.733,4.279Z"
-      fill="#fff" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="21.132" height="21.132" viewBox="0 0 21.132 21.132">
+	<g id="Arrow_Up" data-name="Arrow Up" transform="translate(-1519.991 -949.79)">
+		<path id="Path" d="M2.49,0a2.49,2.49,0,0,1,2.49,2.49V22.414a2.49,2.49,0,0,1-4.981,0V2.49A2.49,2.49,0,0,1,2.49,0Z"
+			transform="translate(1519.991 953.312) rotate(-45)" fill="#fff" opacity="0.5" />
+		<path id="Path-2" data-name="Path"
+			d="M2.49,9a2.49,2.49,0,0,1,2.49,2.49V22.414a2.49,2.49,0,0,1-4.981,0V11.49A2.49,2.49,0,0,1,2.49,9Z"
+			transform="translate(1520.691 941.463)" fill="#fff" />
+		<path id="Path-3" data-name="Path"
+			d="M2.49,9a2.49,2.49,0,0,1,2.49,2.49V22.414a2.49,2.49,0,0,1-4.981,0V11.49A2.49,2.49,0,0,1,2.49,9Z"
+			transform="translate(1545.595 950.463) rotate(90)" fill="#fff" />
+	</g>
 </svg>

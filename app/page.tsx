@@ -2,6 +2,7 @@ import styles from "./page.module.scss";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Templates from "./components/Templates";
 
 /**
  * Renders home page of site
@@ -14,6 +15,7 @@ export default function Home(): JSX.Element {
       <Hero />
       <About />
       <Skills />
+      <Templates />
     </main>
   );
 }
