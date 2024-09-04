@@ -3,6 +3,11 @@ import styles from "./styles.module.scss";
 import Image from "next/image";
 import { SkillsList } from "@/static/Skills";
 
+/**
+ * Renders a grid of skills
+ *
+ * @returns {JSX.Element}
+ */
 export default function Skills() {
   return (
     <section className={styles.skills}>
