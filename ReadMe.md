@@ -10,6 +10,18 @@ I can write Front-End projects using `Next.JS`, `React.JS`, `TypeScript`, `Sass`
 
 Here is some of my projects for my portfolio:
 
+### Portfolio
+
+<img src="./public/images/portfolio.jpg" alt="Ashiooneh" width="500" height="auto">
+
+This is my portfolio, made with `Next.JS`, `Type Script`, `Sass`.
+
+#### Links
+
+- Github Project: [@reza-kelidari/reza-kelidari](https://github.com/reza-kelidari/reza-kelidari)
+
+- Demo: [https://reza-kelidari.github.io/reza-kelidari](https://reza-kelidari.github.io/reza-kelidari)
+
 ### Ashiooneh
 
 <img src="./public/images/ashiooneh.jpg" alt="Ashiooneh" width="500" height="auto">
