@@ -8,9 +8,9 @@ export interface SkillType {
   name: string;
 
   /**
-   * Name of skill's icon
+   * Path of skill's icon
    */
-  iconName: string;
+  iconPath: string;
 }
 
 /**
@@ -22,6 +22,7 @@ export enum SkillList {
   TypeScript = "TypeScript",
   Redux = "Redux",
   Sass = "Sass",
+  Git = "Git",
   API = "API",
   Bootstrap = "Bootstrap",
   Firebase = "Firebase",
