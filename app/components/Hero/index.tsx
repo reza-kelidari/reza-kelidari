@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <Image
-        src="/images/logo.png"
+        src="images/logo.png"
         alt="Profile"
         width={200}
         height={200}
@@ -23,7 +23,7 @@ export default function Hero() {
         <br />
 
         <Link href="#templates">
-          <Button icon="/icons/arrow-up-left.svg">نمونه‌کار ها</Button>
+          <Button icon="icons/arrow-up-left.svg">نمونه‌کار ها</Button>
         </Link>
       </div>
     </section>
