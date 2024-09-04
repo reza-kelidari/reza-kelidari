@@ -7,14 +7,12 @@
 }
 
 :root {
-  color-scheme: light dark;
-  background: var(--background);
-  color: var(--text-primary);
+  background: $background;
+  color: $text-primary;
   direction: rtl;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+a {
+  text-decoration: none;
+  color: unset;
 }

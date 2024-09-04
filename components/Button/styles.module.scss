@@ -1,0 +1,18 @@
+@import "../../app/colors.scss";
+
+.button {
+  border: none;
+  background: $button-background;
+  display: flex;
+  align-content: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+
+  .text {
+    color: $button-text;
+    white-space: nowrap;
+  }
+}
