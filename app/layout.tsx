@@ -9,6 +9,18 @@ export const metadata: Metadata = {
   description:
     "رزومه ی شخصی من، شامل مشخصات من، نمونه کار های من، مهارت های من، روش های ارتباط با من، و...",
   authors: [{ name: "رضا کلیدری", url: "https://github.com/reza-kelidari" }],
+  keywords: [
+    "رضا کلیدری",
+    "برنامه نویس",
+    "front-end",
+    "فرانت اند",
+    "استخدام برنامه نویس",
+    "طراحی سایت",
+    "سایت",
+    "سئو",
+    "سایت فروشگاهی",
+    "سایت فروش",
+  ],
 };
 
 export default function RootLayout({

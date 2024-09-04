@@ -1,5 +1,3 @@
-@import "./colors.scss";
-
 * {
   padding: 0;
   margin: 0;
@@ -7,8 +5,8 @@
 }
 
 :root {
-  background: $background;
-  color: $text-primary;
+  background: #efeeed;
+  color: #000;
   direction: rtl;
 }
 
