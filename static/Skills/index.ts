@@ -6,50 +6,50 @@ import { SkillsListType } from "./types";
 export const SkillsList: SkillsListType = {
   NextJS: {
     name: "Next.JS",
-    iconPath: "icons/next-js.svg",
+    iconPath: "icons/tools/next-js.svg",
   },
   ReactJS: {
     name: "React.JS",
-    iconPath: "icons/react-js.svg",
+    iconPath: "icons/tools/react-js.svg",
   },
   TypeScript: {
     name: "Type Script",
-    iconPath: "icons/type-script.svg",
+    iconPath: "icons/tools/type-script.svg",
   },
   Redux: {
     name: "Redux",
-    iconPath: "icons/redux.svg",
+    iconPath: "icons/tools/redux.svg",
   },
   Sass: {
     name: "Sass",
-    iconPath: "icons/sass.svg",
+    iconPath: "icons/tools/sass.svg",
   },
   Git: {
     name: "Git",
-    iconPath: "icons/git.svg",
+    iconPath: "icons/tools/git.svg",
   },
   API: {
     name: "API",
-    iconPath: "icons/api.svg",
+    iconPath: "icons/tools/api.svg",
   },
   Bootstrap: {
     name: "Bootstrap",
-    iconPath: "icons/bootstrap.svg",
+    iconPath: "icons/tools/bootstrap.svg",
   },
   Firebase: {
     name: "Firebase",
-    iconPath: "icons/firebase.svg",
+    iconPath: "icons/tools/firebase.svg",
   },
   JavaScriptES6: {
     name: "Java Script ES6",
-    iconPath: "icons/js.svg",
+    iconPath: "icons/tools/js.svg",
   },
   CSS3: {
     name: "CSS 3",
-    iconPath: "icons/css.svg",
+    iconPath: "icons/tools/css.svg",
   },
   HTML5: {
     name: "HTML 5",
-    iconPath: "icons/html.svg",
+    iconPath: "icons/tools/html.svg",
   },
 };

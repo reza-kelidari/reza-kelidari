@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Templates from "./components/Templates";
 import Abilities from "./components/Abilities";
+import Contact from "./components/Contact";
 
 /**
  * Renders home page of site
@@ -18,6 +19,7 @@ export default function Home(): JSX.Element {
       <Skills />
       <Templates />
       <Abilities />
+      <Contact />
     </main>
   );
 }
