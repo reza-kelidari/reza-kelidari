@@ -1,28 +1,17 @@
-.about {
-  margin: -5rem 2rem 0;
-  max-width: 900px;
+.descList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.25rem;
 
-  .descList {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    font-size: 1.25rem;
-
-    .desc {
-      text-align: justify;
-      opacity: 0.75;
-    }
+  .desc {
+    text-align: justify;
+    opacity: 0.75;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .about {
-    max-width: unset;
-    margin: -5rem 0 0;
-    width: calc(100% - 4rem);
-
-    .descList {
-      font-size: 1rem;
-    }
+  .descList {
+    font-size: 1rem;
   }
 }

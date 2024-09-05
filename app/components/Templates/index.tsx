@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Templates(): JSX.Element {
   return (
     <section className={styles.templates} id="templates">
-      <Card title="نمونه‌کار های" vertical>
+      <Card title={["نمونه‌کارهای", "من"]} vertical>
         <div className={styles.list}>
           {TemplatesList.map((template, index) => (
             <div className={styles.item} key={index}>

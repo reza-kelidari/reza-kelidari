@@ -7,7 +7,7 @@ export interface CardProps {
   /**
    * Title of Card component
    */
-  title: string;
+  title: string[];
 
   /**
    * Does it always vertical?
