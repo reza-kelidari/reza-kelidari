@@ -1,4 +1,5 @@
-import { SkillList, SkillsListType } from "./types";
+import { SkillsListType } from "./types";
+
 /**
  * List of skills
  */

@@ -13,11 +13,10 @@
       width: 10rem;
       border-radius: 1rem;
       background: #484848;
-      display: grid;
-      place-items: center start;
       padding: 0.25rem;
 
       .line {
+        display: block;
         height: 0.5rem;
         background: #fff;
         border-radius: 1rem;

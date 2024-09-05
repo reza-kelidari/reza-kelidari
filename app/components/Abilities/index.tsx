@@ -11,14 +11,14 @@ export default function Details(): JSX.Element {
   return (
     <Card title={["مهارت‌های", "فردی من"]}>
       <div className={styles.list}>
-        {AbilitiesList.map((item) => (
-          <div className={styles.item}>
+        {AbilitiesList.map((item, index) => (
+          <div key={index} className={styles.item}>
             <span>{item.name}</span>
             <div className={styles.bar}>
-              <div
+              <span
                 className={styles.line}
                 style={{ width: `${item.percent}%` }}
-              ></div>
+              ></span>
             </div>
           </div>
         ))}
