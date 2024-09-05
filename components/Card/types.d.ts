@@ -13,4 +13,9 @@ export interface CardProps {
    * Does it always vertical?
    */
   vertical?: true;
+
+  /**
+   * HTML Attribute
+   */
+  id?: string;
 }
