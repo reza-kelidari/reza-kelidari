@@ -30,4 +30,9 @@ export interface TemplateType {
    * URL of project's github page
    */
   github: string;
+
+  /**
+   * Small decription of project
+   */
+  desc: string;
 }
