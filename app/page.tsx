@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Templates from "./components/Templates";
+import Abilities from "./components/Abilities";
 
 /**
  * Renders home page of site
@@ -16,6 +17,7 @@ export default function Home(): JSX.Element {
       <About />
       <Skills />
       <Templates />
+      <Abilities />
     </main>
   );
 }

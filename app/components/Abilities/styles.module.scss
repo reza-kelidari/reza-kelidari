@@ -1,0 +1,27 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    .bar {
+      width: 10rem;
+      border-radius: 1rem;
+      background: #484848;
+      display: grid;
+      place-items: center start;
+      padding: 0.25rem;
+
+      .line {
+        height: 0.5rem;
+        background: #fff;
+        border-radius: 1rem;
+      }
+    }
+  }
+}
