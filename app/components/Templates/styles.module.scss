@@ -54,6 +54,12 @@
         margin: auto;
         z-index: 1;
         height: fit-content;
+
+        .link {
+          .icon {
+            filter: invert(1) !important;
+          }
+        }
       }
     }
 

@@ -25,7 +25,11 @@ export default function Templates(): JSX.Element {
 
               <div className={styles.links}>
                 {template.demo && (
-                  <a href={template.demo} target="_blank">
+                  <a
+                    href={template.demo}
+                    target="_blank"
+                    className={styles.link}
+                  >
                     <span>دمو</span>
 
                     <Image
@@ -33,18 +37,24 @@ export default function Templates(): JSX.Element {
                       height={20}
                       width={20}
                       alt="Arrow"
+                      className={styles.icon}
                     />
                   </a>
                 )}
 
-                <a href={template.github} target="_blank">
+                <a
+                  href={template.github}
+                  target="_blank"
+                  className={styles.link}
+                >
                   <span>گیتهاب</span>
 
                   <Image
                     src="icons/github.svg"
                     height={20}
                     width={20}
-                    alt="Arrow"
+                    alt="Github"
+                    className={styles.icon}
                   />
                 </a>
               </div>
@@ -66,7 +76,7 @@ export default function Templates(): JSX.Element {
                 ))}
               </div>
             </div>
-            
+
             <p className={styles.desc}>{template.desc}</p>
           </div>
         ))}

@@ -11,14 +11,19 @@ const vazirmatn = Vazirmatn({ subsets: ["latin"] });
  *
  * @returns {JSX.Element}
  */
-export default function Button({
-  children,
-  icon,
-}: ButtonProps): JSX.Element {
+export default function Button({ children, icon }: ButtonProps): JSX.Element {
   return (
     <button className={`${styles.button} ${vazirmatn.className}`}>
       <span className={styles.text}>{children}</span>
-      {icon && <Image src={icon} alt="icon" width={25} height={25} />}
+      {icon && (
+        <Image
+          src={icon}
+          alt="icon"
+          width={25}
+          height={25}
+          className={styles.icon}
+        />
+      )}
     </button>
   );
 }
