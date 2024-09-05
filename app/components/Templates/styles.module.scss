@@ -10,7 +10,6 @@
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    
 
     &:hover {
       .container {
@@ -19,6 +18,14 @@
         }
         .links {
           opacity: 1;
+        }
+      }
+
+      .details {
+        .tools {
+          .icon:not(:first-child) {
+            margin-left: -1rem;
+          }
         }
       }
     }
@@ -56,16 +63,23 @@
       width: 100%;
       justify-content: space-between;
       padding: 0 1rem;
+      overflow: hidden;
+      position: relative;
+      height: 3.25rem;
 
       .name {
         font-size: 1.5rem;
         font-weight: 300;
+        white-space: nowrap;
       }
 
       .tools {
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
+        z-index: 1;
+        left: 1rem;
+        position: absolute;
 
         .icon {
           object-fit: contain;
@@ -73,6 +87,7 @@
           background: #fff;
           border: 2px solid #00000022;
           border-radius: 2rem;
+          transition: 0.1s ease-in-out all;
 
           &:not(:first-child) {
             margin-left: -1.5rem;
@@ -91,21 +106,6 @@
 @media screen and (max-width: 1200px) {
   .list {
     .item {
-      &:hover {
-        .container {
-          .banner {
-            filter: unset;
-          }
-        }
-      }
-
-      .container {
-        .links {
-          position: unset;
-          opacity: unset;
-        }
-      }
-
       .details {
         .name {
           font-size: 1.25rem;
@@ -121,6 +121,30 @@
     width: 100%;
 
     .item {
+      &:hover {
+        .container {
+          .banner {
+            filter: unset;
+          }
+        }
+
+        .details {
+          .tools {
+            .icon:not(:first-child) {
+              margin-left: -1.5rem;
+            }
+          }
+        }
+      }
+
+      .container {
+        .links {
+          position: unset;
+          opacity: unset;
+          justify-content: space-around;
+        }
+      }
+
       .banner {
         width: auto;
         height: 15rem;

@@ -8,7 +8,7 @@ import { SkillsList } from "@/static/Skills";
  *
  * @returns {JSX.Element}
  */
-export default function Skills() {
+export default function Skills(): JSX.Element {
   return (
     <Card title={["مهارت‌های", "من"]}>
       <div className={styles.list}>
@@ -19,6 +19,7 @@ export default function Skills() {
             alt={item.name}
             height={50}
             width={50}
+            className={styles.item}
           />
         ))}
       </div>

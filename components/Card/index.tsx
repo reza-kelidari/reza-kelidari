@@ -9,9 +9,9 @@ export default function Card({ children, title, vertical, id }: CardProps) {
     >
       <div className={styles.titleBar}>
         {title.map((item, index) => (
-          <h1 key={index} className={styles.title}>
+          <h2 key={index} className={styles.title}>
             {item}
-          </h1>
+          </h2>
         ))}
       </div>
       {children}

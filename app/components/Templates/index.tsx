@@ -51,7 +51,7 @@ export default function Templates(): JSX.Element {
             </div>
 
             <div className={styles.details}>
-              <h3 className={styles.name}>{template.name}</h3>
+              <h4 className={styles.name}>{template.name}</h4>
 
               <div className={styles.tools}>
                 {template.tools.map((tool, index) => (

@@ -29,7 +29,7 @@ export const TemplatesList: TemplateType[] = [
     ],
     demo: "https://ashiooneh-git-main-reza-kelidaris-projects-e284196b.vercel.app/",
     github: "https://github.com/reza-kelidari/ashiooneh",
-    desc: "پلتفرم آنلاین مشاوره املاک",
+    desc: "پلتفرم آنلاین مشاوره املاک، شامل فرم جستجوی خونه بر اساس محله، قیمت و ... (صرفاٌ رابط کاربری).",
   },
   {
     name: "دکترِ تو",
@@ -42,7 +42,7 @@ export const TemplatesList: TemplateType[] = [
     ],
     demo: "https://doctore-to-git-main-reza-kelidaris-projects-e284196b.vercel.app/",
     github: "https://github.com/reza-kelidari/doctore-to",
-    desc: "پلتفرم آنلاین رزرو نوبت پزشک، بر حسب تخصص و موقعیت مکانی",
+    desc: "پلتفرم آنلاین رزرو نوبت پزشک، بر حسب تخصص و موقعیت مکانی.",
   },
   {
     name: "مووی لند",
@@ -56,10 +56,10 @@ export const TemplatesList: TemplateType[] = [
     ],
     demo: "https://movie-land-git-master-reza-kelidaris-projects-e284196b.vercel.app/",
     github: "https://github.com/reza-kelidari/movie-land",
-    desc: "دیتابیس آنلاین فیلم و سریال، با themoviedb.org",
+    desc: "دیتابیس آنلاین فیلم و سریال، با استفاده از سرویس themoviedb.org.",
   },
   {
-    name: "فرم احراز هویت",
+    name: "فرم لاگین",
     imagePath: "images/form-validator.jpg",
     tools: [
       SkillsList.ReactJS,
@@ -70,6 +70,6 @@ export const TemplatesList: TemplateType[] = [
     ],
     demo: "https://form-validator-git-master-reza-kelidaris-projects-e284196b.vercel.app/",
     github: "https://github.com/reza-kelidari/form-validator",
-    desc: "فرم ثبت نام چند مرحله ای و ورود، با Firebasae",
+    desc: "فرم ثبت نام چند مرحله ای و ورود، با Firebasae، با قابلیت تایید آدرس ایمیل.",
   },
 ];
