@@ -19,6 +19,19 @@ export const TemplatesList: TemplateType[] = [
     desc: "رزومه ی شخصی من، شامل مشخصات من، نمونه کار های من، مهارت های من، روش های ارتباط با من، و... .",
   },
   {
+    name: "وودین",
+    imagePath: "images/woodin.jpg",
+    tools: [
+      SkillsList.NextJS,
+      SkillsList.TypeScript,
+      SkillsList.Tailwind,
+      SkillsList.Git,
+    ],
+    demo: "https://reza-kelidari.github.io/woodin",
+    github: "https://github.com/reza-kelidari/woodin",
+    desc: "یه فروشگاه آنلاین دکوراسیون خونگی، اداری و ویلا",
+  },
+  {
     name: "آشیونه",
     imagePath: "images/ashiooneh.jpg",
     tools: [

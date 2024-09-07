@@ -16,13 +16,17 @@ export const SkillsList: SkillsListType = {
     name: "Type Script",
     iconPath: "icons/tools/type-script.svg",
   },
-  Redux: {
-    name: "Redux",
-    iconPath: "icons/tools/redux.svg",
+  Tailwind: {
+    name: "Tailwind",
+    iconPath: "icons/tools/tailwind.svg",
   },
   Sass: {
     name: "Sass",
     iconPath: "icons/tools/sass.svg",
+  },
+  Redux: {
+    name: "Redux",
+    iconPath: "icons/tools/redux.svg",
   },
   Git: {
     name: "Git",
