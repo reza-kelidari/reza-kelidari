@@ -1,5 +1,4 @@
 import Card from "@/components/Card";
-import styles from "./styles.module.scss";
 import Image from "next/image";
 import { SkillsList } from "@/static/Skills";
 
@@ -11,7 +10,10 @@ import { SkillsList } from "@/static/Skills";
 export default function Skills(): JSX.Element {
   return (
     <Card title={["مهارت‌های", "من"]}>
-      <div className={styles.list}>
+      <div
+        className="grid grid-cols-3 gap-10 sm:gap-8 place-items-center max-sm:pb-4"
+        dir="ltr"
+      >
         {Object.values(SkillsList).map((item, index) => (
           <Image
             key={index}
@@ -19,7 +21,7 @@ export default function Skills(): JSX.Element {
             alt={item.name}
             height={50}
             width={50}
-            className={styles.item}
+            className="h-14 w-14 transition-all hover:scale-110 dark:brightness-50 dark:saturate-0 dark:invert"
           />
         ))}
       </div>

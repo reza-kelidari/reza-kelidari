@@ -1,6 +1,6 @@
 import Card from "@/components/Card";
-import styles from "./styles.module.scss";
 import Image from "next/image";
+import { ContactInfoType } from "./types";
 
 /**
  * Renders a list of contact me details
@@ -8,53 +8,58 @@ import Image from "next/image";
  * @returns {JSX.Element}
  */
 export default function Contact(): JSX.Element {
+  const contactInfos: ContactInfoType[] = [
+    {
+      name: "ایمیل",
+      value: "re.kelidari@gmail.com",
+      icon: "icons/email.svg",
+      link: "mailto:re.kelidari@gmail.com",
+    },
+    {
+      name: "تماس",
+      value: "0993 899 9748",
+      icon: "icons/phone.svg",
+      link: "tel:09938999748",
+    },
+    {
+      name: "گیت‌هاب",
+      value: "@reza-kelidari",
+      icon: "icons/github.svg",
+      link: "https://github.com/reza-kelidari/",
+    },
+    {
+      name: "لینکداین",
+      value: "@reza-kelidari",
+      icon: "icons/linkedin.svg",
+      link: "https://www.linkedin.com/in/reza-kelidari/",
+    },
+  ];
+
   return (
     <Card title={["ارتباط", "با من"]}>
-      <div className={styles.list}>
-        <a href="mailto:re.kelidari@gmail.com" className={styles.item}>
-          <div className={styles.titleBar}>
-            <Image src="icons/email.svg" alt="Email" height={20} width={20} />
-            <h4 className={styles.title}>ایمیل</h4>
-          </div>
-          <span className={styles.text}>re.kelidari@gmail.com</span>
-        </a>
-
-        <a href="tel:09938999748" className={styles.item}>
-          <div className={styles.titleBar}>
-            <Image src="icons/phone.svg" alt="Email" height={20} width={20} />
-            <h4 className={styles.title}>تماس</h4>
-          </div>
-          <span className={styles.text}>0993 899 9748</span>
-        </a>
-
-        <a
-          href="https://github.com/reza-kelidari/"
-          target="_blank"
-          className={styles.item}
-        >
-          <div className={styles.titleBar}>
-            <Image src="icons/github.svg" alt="Email" height={20} width={20} />
-            <h4 className={styles.title}>گیتهاب</h4>
-          </div>
-          <span className={styles.text}>@reza-kelidari</span>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/reza-kelidari/"
-          target="_blank"
-          className={styles.item}
-        >
-          <div className={styles.titleBar}>
-            <Image
-              src="icons/linkedin.svg"
-              alt="Email"
-              height={20}
-              width={20}
-            />
-            <h4 className={styles.title}>لینکداین</h4>
-          </div>
-          <span className={styles.text}>@reza-kelidari</span>
-        </a>
+      <div className="flex flex-col gap-8 w-full">
+        {contactInfos.map((way, index) => (
+          <a
+            key={index}
+            href={way.link}
+            target="_blank"
+            className="flex flex-col group gap-2"
+          >
+            <div className="flex items-center gap-2 group-hover:gap-4 transition-all opacity-75">
+              <Image
+                src={way.icon}
+                alt={way.name}
+                height={20}
+                width={20}
+                className="dark:invert"
+              />
+              <h4>{way.name}</h4>
+            </div>
+            <span className="text-xl" dir="ltr">
+              {way.value}
+            </span>
+          </a>
+        ))}
       </div>
     </Card>
   );

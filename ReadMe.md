@@ -4,7 +4,7 @@ I’m @reza-kelidari, a junior Front-End devloper, and this is my portfolio proj
 
 # My skills 🔬
 
-I can write Front-End projects using `Next.JS`, `React.JS`, `TypeScript`, `Sass`, and more.
+I can write Front-End projects using `Next.JS`, `React.JS`, `TypeScript`, `Tailwind CSS`, `Sass`, and more.
 
 # My projects 🧑‍💻
 
@@ -14,7 +14,7 @@ Here is some of my projects for my portfolio:
 
 <img src="./public/images/portfolio.jpg" alt="Ashiooneh" width="500" height="auto">
 
-This is my portfolio, made with `Next.JS`, `Type Script`, `Sass`.
+This is my portfolio, made with `Next.JS`, `Type Script`, `Tailwind CSS`.
 
 #### Links
 
