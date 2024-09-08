@@ -2,6 +2,26 @@ import { iconBasePath } from "@/Static/Skills";
 import { SkillType } from "../Skills/types";
 
 /**
+ * Declares how should link object looks like
+ */
+interface LinkType {
+  /**
+   * Name of link destination
+   */
+  name: string;
+
+  /**
+   * Path of link's icon
+   */
+  icon: string;
+
+  /**
+   * Link address
+   */
+  href: string;
+}
+
+/**
  * Represents shape of a template
  */
 export interface TemplateType {
@@ -22,14 +42,9 @@ export interface TemplateType {
   tools: SkillType[];
 
   /**
-   * URL of project's demo page
+   * List of links related to project
    */
-  demo: string;
-
-  /**
-   * URL of project's github page
-   */
-  github: string;
+  links: LinkType[];
 
   /**
    * Small decription of project
