@@ -4,7 +4,7 @@ I’m @reza-kelidari, a junior Front-End devloper, and this is my portfolio proj
 
 # My skills 🔬
 
-I can write Front-End projects using `Next.JS`, `React.JS`, `TypeScript`, `Tailwind CSS`, `Sass`, and more.
+[![My Skills](https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,sass,redux,git,bootstrap,firebase,html,css,js,linux)](https://skillicons.dev) and more.
 
 # My projects 🧑‍💻
 
